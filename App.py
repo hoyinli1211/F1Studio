@@ -1,6 +1,6 @@
 import streamlit as st
 
-import fastf1 as ff1
+import fastf1
 from fastf1 import plotting
 from fastf1 import utils
 
