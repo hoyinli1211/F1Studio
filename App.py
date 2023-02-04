@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 
 # Enable the cache by providing the name of the cache folder
+@st.cache
 ff1.Cache.enable_cache('cache') 
 
 #Sidebar
