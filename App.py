@@ -12,7 +12,8 @@ import pandas as pd
 
 # Enable the cache by providing the name of the cache folder
 @st.cache
-ff1.Cache.enable_cache('cache') 
+def cache():
+  ff1.Cache.enable_cache('cache') 
 
 #Sidebar
 st.sidebar.title("Instructions:")
