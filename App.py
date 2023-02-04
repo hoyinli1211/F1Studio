@@ -10,6 +10,9 @@ from matplotlib.pyplot import figure
 import numpy as np
 import pandas as pd
 
+# Enable the cache by providing the name of the cache folder
+ff1.Cache.enable_cache('cache') 
+
 #Sidebar
 st.sidebar.title("Instructions:")
 st.sidebar.markdown("1. ")
